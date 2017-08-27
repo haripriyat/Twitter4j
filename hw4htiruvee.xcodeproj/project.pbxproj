@@ -16,6 +16,10 @@
 		11625EE31EF378E10094DF29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11625EE11EF378E10094DF29 /* LaunchScreen.storyboard */; };
 		11625EEE1EF378E10094DF29 /* hw4htiruveeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11625EED1EF378E10094DF29 /* hw4htiruveeTests.m */; };
 		11625EF91EF378E10094DF29 /* hw4htiruveeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11625EF81EF378E10094DF29 /* hw4htiruveeUITests.m */; };
+		11625F081EF379040094DF29 /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11625F071EF379040094DF29 /* SecondTableViewController.m */; };
+		11625F0E1EF381530094DF29 /* TweetEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11625F0D1EF381530094DF29 /* TweetEventViewController.m */; };
+		11625F131EF389F00094DF29 /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 11625F121EF389F00094DF29 /* Twitter.png */; };
+		11625F161EF391510094DF29 /* TimelineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11625F151EF391510094DF29 /* TimelineTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,13 @@
 		11625EF41EF378E10094DF29 /* hw4htiruveeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hw4htiruveeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11625EF81EF378E10094DF29 /* hw4htiruveeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hw4htiruveeUITests.m; sourceTree = "<group>"; };
 		11625EFA1EF378E10094DF29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11625F061EF379040094DF29 /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		11625F071EF379040094DF29 /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
+		11625F0C1EF381530094DF29 /* TweetEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetEventViewController.h; sourceTree = "<group>"; };
+		11625F0D1EF381530094DF29 /* TweetEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetEventViewController.m; sourceTree = "<group>"; };
+		11625F121EF389F00094DF29 /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Twitter.png; path = ../Twitter.png; sourceTree = "<group>"; };
+		11625F141EF391510094DF29 /* TimelineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineTableViewController.h; sourceTree = "<group>"; };
+		11625F151EF391510094DF29 /* TimelineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +95,13 @@
 		11625EC41EF378E00094DF29 = {
 			isa = PBXGroup;
 			children = (
+				11625F141EF391510094DF29 /* TimelineTableViewController.h */,
+				11625F151EF391510094DF29 /* TimelineTableViewController.m */,
+				11625F121EF389F00094DF29 /* Twitter.png */,
+				11625F0C1EF381530094DF29 /* TweetEventViewController.h */,
+				11625F0D1EF381530094DF29 /* TweetEventViewController.m */,
+				11625F061EF379040094DF29 /* SecondTableViewController.h */,
+				11625F071EF379040094DF29 /* SecondTableViewController.m */,
 				11625ECF1EF378E10094DF29 /* hw4htiruvee */,
 				11625EEC1EF378E10094DF29 /* hw4htiruveeTests */,
 				11625EF71EF378E10094DF29 /* hw4htiruveeUITests */,
@@ -252,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11625EE31EF378E10094DF29 /* LaunchScreen.storyboard in Resources */,
+				11625F131EF389F00094DF29 /* Twitter.png in Resources */,
 				11625EE01EF378E10094DF29 /* Assets.xcassets in Resources */,
 				11625EDE1EF378E10094DF29 /* Main.storyboard in Resources */,
 			);
@@ -279,9 +298,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				11625EDB1EF378E10094DF29 /* SecondViewController.m in Sources */,
+				11625F161EF391510094DF29 /* TimelineTableViewController.m in Sources */,
+				11625F0E1EF381530094DF29 /* TweetEventViewController.m in Sources */,
 				11625ED51EF378E10094DF29 /* AppDelegate.m in Sources */,
 				11625ED81EF378E10094DF29 /* FirstViewController.m in Sources */,
 				11625ED21EF378E10094DF29 /* main.m in Sources */,
+				11625F081EF379040094DF29 /* SecondTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
